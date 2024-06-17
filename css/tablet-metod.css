@@ -1,0 +1,679 @@
+@media screen and (max-width:1279px) and (min-width:760px)
+{
+	.container
+	{
+		padding-top: 40px;
+		width: 744px;
+		margin:0 auto;
+	}
+
+	ul{
+		list-style-type: none;
+	}
+
+	.imgg{
+		width: 604px;
+		height: 223px;
+	}
+
+	.img{
+		width: 400px;
+		height: 237px;
+	}
+
+	.shkmimg-logo{
+		width: 49.906px;
+		height: 45.238px;
+		flex-shrink: 0;
+	}
+
+	header.header{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 40px;
+		height: 323px;
+	}
+
+	div.top{
+		height: 82px;
+		margin-bottom: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	input,label{
+		display: none;
+	}
+
+	a.a{
+		color: #202336;
+		text-align: center;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		padding-bottom: 2px;
+		border-bottom: 1px solid #F6A410;
+		line-height: normal;
+	}
+
+	.bbv{
+		text-decoration: none;
+		color: #ABAEB5;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	.bbv:hover{
+		color: #202336;
+		text-align: center;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	ul.unig{
+		list-style-type: none;
+		display: flex;
+		width: 616px;
+		justify-content: space-evenly;
+		color: #ABAEB5;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	section.section{
+		height: 451px;
+		display: flex;
+		
+	}
+
+	div.encompassing-text{
+		width: 355px;
+		height: 205px;
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	h1.encompassing-text_title{
+		font-family: Playfair Display;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 80px;
+		letter-spacing: 0em;
+		text-align: left;
+
+	}
+	
+	p.text{
+		margin-bottom: 10px;
+		margin-top: 0px;
+		font-family: Inter;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 35px;
+		letter-spacing: 0em;
+		text-align: left;
+
+	}
+
+	button{
+		width: 159.699px;
+		height: 45px;
+		border-radius: 8px;
+		background: #F6A410;
+		border: 0px;
+		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		color: white;
+		flex-shrink: 0;
+		color: #FFF;
+		text-align: center;
+		font-family: "Playfair Display";
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.section_scrum-master
+	{
+		margin: 0 auto;
+		width: 726px;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.scrum_metod_block
+	{
+		height:300px;
+		margin-bottom: 50px;
+		width: 726px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.scrum_metod_h2
+	{
+		font-family: Playfair Display;
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 50px;
+	}
+	.scrum_metod_text
+	{
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 25px;
+	}
+	.scrum-history
+	{
+		width: 680px;
+		height: 316px;
+		border:1px solid #DBEEEA;
+		border-radius: 10px;
+		margin:0 auto;
+		margin-top: 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 0px 4px 4px 0px #00000040;
+		padding: 15px;
+
+	}
+	.scrum-history_block1
+	{
+		height:78px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.scrum_hist_img
+	{
+		width: 44px;
+		height:40px;
+	}
+	.scrum-history_img_text
+	{
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25px;
+		color:grey;
+	}
+	.scrum-history_text_block2
+	{
+		font-family: Inter;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		color:grey;
+	}
+	.section_scrum_concept
+	{
+		margin-top: 35px;
+		width: 744px;
+		display: flex;
+		flex-direction: column;
+		margin:0 auto;
+	}
+.card_scrum_concept1
+{
+	width: 220px;
+	height: 351px;
+	background:#DAF1E9;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	display: flex;
+	flex-direction: column;
+	padding-top:11px;
+	padding-right: 2px;
+	padding-left: 0px;
+	border-radius: 10px;
+}
+.card_scrum_concept2
+{
+	width: 231px;
+	background: #FFE7675C;
+}
+.block_scrum_concept
+{
+	display: flex;
+	justify-content: space-between;
+}
+.scrum_h3
+{
+	font-family: Playfair Display;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	margin-bottom:0px;
+	align-self: center;
+}
+.li_scrum_concept
+{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;	
+	margin-bottom: 10px;
+}
+.navigation_text
+{
+	font-family: Playfair Display;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	text-decoration: none;
+	color:white;
+}
+.detalisation
+{
+	width: 140px;
+	height: 41px;
+	border-radius: 8px;
+	background: #F6A410;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+}
+.scrum_concept_img
+{
+	width: 80px;
+	height:72px;
+	align-self: center;
+	margin-bottom: 20px;
+}
+.scrum_concept_img2
+{
+	width: 80px;
+	height:72px;
+	align-self: center;
+}
+.section3_what_this_worked
+{
+	width: 726px;
+	margin:0 auto;
+}
+.h2_section3
+{
+	font-family: Playfair Display;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.text_section3_scrum
+{
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.text_section3_dailyscrum
+{
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.kanban
+{
+	width:726px;
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.metodo
+{
+	width:726px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about
+{
+	width:726px ;
+	display: flex;
+	flex-direction: column;
+}
+.kanban-title
+{
+	font-family: Playfair Display;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.paraphraf-m
+{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.cut-story
+{
+		width: 680px;
+		height: 316px;
+		border:1px solid #DBEEEA;
+		border-radius: 10px;
+		margin:0 auto;
+		margin-top: 25px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 0px 4px 4px 0px #00000040;
+		padding: 15px;
+}
+.story-img-block-left
+{
+	height:78px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.book-t
+{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	color:grey;
+}
+.p-book
+{
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color:grey;
+	align-self: center;
+}
+.how-work
+{
+	display: flex;
+	flex-direction: column;
+	margin-top:43px;
+}
+.how-b
+{
+	font-family: Playfair Display;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 50px;	
+}
+.how-p
+{
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.blockch
+{
+	width: 340px;
+	height:90px;
+	background: #62C1C5;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 39px;
+}
+.picture_pc
+{
+	display: none;
+}
+.blockch2
+{
+	background: #1E8A8C;
+}
+.scrumch
+{
+	width: 340px;
+	height:484px;
+}
+.plus-and-minus
+{
+	display: flex;
+	width: 262px;
+	align-items: center;
+}
+.plus-minus-img
+{
+	width: 25px;
+	height:33px;
+	margin-right: 17px;
+	align-items: center;
+}
+.ohoplenui
+{
+	margin:0 auto;
+	width: 726px;
+	display: flex;
+	justify-content: space-between;
+}
+.character
+{
+	width: 726px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:27px;
+}
+.scrum-or-kanban
+{
+	width: 726px;
+	margin:0 auto;
+}
+.topch
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 340px;
+	height:113px;
+}
+.truk
+{
+	width: 25.49px;
+	height:31px;
+	margin-top: -5px;
+}
+.list-of-metod
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.why
+{
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.lampa_img
+{
+	align-self: center;
+}
+.title-character
+{
+	font-family: Playfair Display;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 32px;
+}
+.scrumban
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.scrum-or-kanban{
+	margin-bottom: 50px;
+}
+
+.scrumban-img
+{
+	width: 590px;
+	height:490px;
+	align-self: center;
+}
+.scrumban-motodo-block
+{
+	margin-top:35px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+.b-motodo
+{
+	font-family: Playfair Display;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 25px;
+}
+.paraphraf-motodo
+{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+	.scrumban2{	
+    	display: none;
+	}
+
+		footer.footer{
+	background: #DAF1E982;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 17px;
+	}
+
+	div.footer_encompassing-text{
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		width: 180px;
+		padding: 0px;
+		margin-right: 68px;
+	}
+
+	div.footer_encompassing-text:last-child{
+		margin-right: 0px;
+	}
+
+	img.footer_encompassing-text_logo{
+		width: 82.258px;
+		height: 79px;
+		flex-shrink: 0;
+	}
+
+	div.container-footer-two{
+		display: flex;
+		flex-wrap: wrap;
+		
+		margin-bottom: 88px;
+	}
+
+	h2.footer_encompassing-text_title{
+		margin: 0px;
+		color: #000;
+		font-family: "Playfair Display";
+		font-size: 19px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 126.316% */
+	}
+
+	ul{
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+
+	a.footer-a{
+		text-decoration: none;
+		color: #717171;
+		font-family: Mulish;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 25px;
+	}
+
+	div.foooter{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	div.starfake{
+		display: flex;
+		width: 107.734px;
+		height: 139px;
+		margin-right: 58px;
+	}
+
+
+
+	div.star-alpha{
+		display: flex;
+		width: 171.977px;
+	}
+
+	div.star-omega{
+		display: flex;
+		width: 153.038px;
+		height: 139px;
+		margin-right: 28px;
+	}
+
+	div.star-sigma{
+		display: flex;
+		width: 168.774px;
+		height: 139px;
+	}
+
+	div.block-border-top{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 270.968px;
+		height: 48px;
+		border-top: 1px solid;
+		margin-bottom: 13px;
+	}
+
+}

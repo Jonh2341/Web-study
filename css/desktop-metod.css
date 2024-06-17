@@ -1,0 +1,905 @@
+@media screen and (min-width: 1279px){
+	*{
+		text-decoration: none;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		font-family: 'Playfair Display', serif; 
+		font-family: 'Inter', sans-serif;
+		font-family: 'Mulish', sans-serif;
+		margin: 0px;
+	}
+
+	div.container{
+		width: 90vw;
+		margin: 0 auto;
+		padding-top: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.img,.imgg{
+		width: 50%;
+	}
+
+	.img{
+		width: 789.754px;
+		height: 451px;
+	}
+
+	.shkmimg-logo{
+		width: 49.906px;
+		height: 45.238px;
+		flex-shrink: 0;
+	}
+
+	header.header{
+		display: flex;
+		flex-direction: column;
+		width: 1160px;
+		align-self: center;
+		margin-bottom: 70px;
+		
+	}
+
+	div.top{
+		height: 82px;
+		margin-bottom: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	input,label{
+		display: none;
+	}
+
+	a.a{
+		color: #202336;
+		text-align: center;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		padding-bottom: 2px;
+		border-bottom: 1px solid #F6A410;
+		line-height: normal;
+	}
+
+	.bbv{
+		text-decoration: none;
+		color: #ABAEB5;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	.bbv:hover{
+		color: #202336;
+		text-align: center;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	ul.unig{
+		display: flex;
+		width: 616px;
+		justify-content: space-evenly;
+		color: #ABAEB5;
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	section.section{
+		height: 451px;
+		display: flex;
+		
+	}
+
+	div.encompassing-text{
+		width: 516px;
+		height: 286px;
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	h1.encompassing-text_title{
+		color: #202336;
+		font-family: Playfair Display;
+		font-size: 70px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 80px; 
+		margin-bottom: 28px;
+	}
+	
+	p.text{
+		margin-bottom: 68px;
+		margin-top: 0px;
+		color: #202336;
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 35px;
+	}
+
+	button{
+		width: 159.699px;
+		height: 45px;
+		border-radius: 8px;
+		background: #F6A410;
+		border: 0px;
+		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		color: white;
+		flex-shrink: 0;
+		color: #FFF;
+		text-align: center;
+		font-family: "Playfair Display";
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	main.main{
+		display: flex;
+		flex-direction: column;
+		width: 1160px;
+		align-self: center;
+	}
+
+	.section_scrum-master
+	{
+		width: 1160px;
+		margin:0 auto;
+		display: flex;
+	}
+	.img_scrum_master
+	{
+		width: 429px;
+		height:392px;
+		margin-right:49.42px;
+	}
+	.scrum_metod_h2
+	{
+		font-family: Playfair Display;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 25px;
+	}
+	.scrum_metod_text
+	{
+		font-family: Inter;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.scrum-history
+	{
+		width: 1160px;
+		height:164px;
+		border:1px solid #DBEEEA;
+		border-radius: 10px;
+		margin:0 auto;
+		margin-top: 25px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-shadow: 0px 4px 4px 0px #00000040;
+	}
+
+	.margin-special{
+		margin-bottom: 38px;
+	}
+
+	.scrum-history_block2
+	{
+		width: 975px;
+	}
+	.scrum-history_block1
+	{
+		width: 185px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.scrum-history_img_text
+	{
+		font-family: Inter;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 25px;
+		color:#6A6A6A;
+	}
+	.scrum-history_text_block2
+	{
+		color:#6A6A6A;
+		font-family: Inter;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.section_scrum_concept
+	{
+		margin-top: 38px;
+		width: 1160px;
+		margin:0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.block_scrum_concept
+	{
+		width: 1160px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.scrum_concept_metodol
+	{
+		 font-family: Playfair Display;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 50px;
+		text-align: center;
+		margin-bottom: 47px;
+
+	}
+	.card_scrum_concept1
+	{
+		width: 274.16px;
+		height: 420px;
+		background:#DAF1E9;
+		box-shadow: 0px 4px 4px 0px #00000040;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 10px;
+	}
+	.scrum_concept_img
+	{
+		width: 76.46px;
+		height:70px;
+		margin-top:11px;
+		margin-bottom: 30px;
+	}
+	.scrum_h3
+	{	
+		font-family: Playfair Display;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 23px;
+	}
+	.li_scrum_concept
+	{
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	.detalisation
+	{
+		width: 151.83px;
+		height: 45px;
+		background:orange;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.navigation_text
+	{
+		font-family: Playfair Display;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 21px;
+		text-decoration: none;
+		color:white;
+	}
+	.card_scrum_concept2
+	{
+		width: 371px;
+		background:#FFE767;
+		box-shadow: 0px 4px 4px 0px #00000040;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.scrum_concept_img2
+	{
+		width: 76.46px;
+		height:70px;
+		margin-top:20px;
+		margin-bottom: 21px;
+	}
+	.li_scrum_concept2
+	{
+		margin-bottom: 13px
+	}
+	.li_scrum_concept3
+	{
+		margin-bottom:16px;
+	}
+	.li_scrum_concept4
+	{
+		margin-bottom: 34px;
+	}
+	.section3_what_this_worked
+	{
+		width: 1160px;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.img_sheme
+	{
+		width: 1158px;
+		height:447px;
+		margin: 0 auto;
+	}
+	.h2_section3
+	{
+		font-family: Playfair Display;
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 50px;
+		margin-bottom: 15px;
+	}
+	.text_section3_scrum
+	{
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 30px;
+	}
+	.text_section3_dailyscrum
+	{
+		font-family: Inter;
+		
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 30px;
+	}
+	.blockch
+	{
+		width: 336px;
+		height:90px;
+		background:#62C1C5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	;
+	}
+	.scrumch
+	{
+		width: 336px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.kanban{
+		display: flex;
+		width: 1160px;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+
+	.metodo{
+		display: flex;
+		justify-content: space-between;
+		height: 585px;
+	}
+
+	.img-m{
+		width: 459.52px;
+		height: 406px;
+	}
+
+	.about{
+		width: 654px;
+		height: 580px;
+		margin-bottom: 18px;
+	}
+
+	.kanban-title{
+		font-family: Playfair Display;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 50px;
+		letter-spacing: 0em;
+		text-align: left;	}
+
+	.paraphraf-m{
+		margin-top: 40px;
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 30px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.cut-story{
+		margin-top: 40px;
+		height: 164px;
+		box-shadow: 0px 4px 4px 0px #00000040;
+		border: 1px solid #DBEEEA;
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.story-img-block-left{
+		width: 177px;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.book-t{
+		color: #6A6A6A;
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 0em;
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.story-stroke-right{
+		height: 124px;
+		width: 967px;
+	}
+
+	p.book{
+		color: #6A6A6A;
+		font-family: Inter;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.book{
+		width: 44px;
+		height: 41px;
+	}
+
+	.how-work{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.how-b{
+		font-family: Playfair Display;
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 50px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.how-p{
+		margin-top: 25px;
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 30px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.tabluca{
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.img-t{
+		height: 479px;
+	}
+
+	.img-m
+    {
+        width: 459px;
+        height:406px;
+    }
+    .metodo
+    {
+        width: 1131px;
+        height:585px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 40px;
+        margin:0 auto;
+    }
+    .about
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 654px;
+    }
+    .kanban-title
+    {
+        font-family: Playfair Display;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+
+    }
+    .paraphraf-m
+    {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+.cut-story
+{
+    width: 1160px;
+    height:164px;
+    border:1px solid #DBEEEA;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.story-stroke-right
+{
+    width: 975px;
+}
+.story-img-block-left
+{
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-book
+{
+    color:#6A6A6A;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.book-t
+{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color:#6A6A6A;
+}
+.how-work
+{
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0 auto;
+    margin-top:40px;
+}
+.how-b
+{
+    font-family: Playfair Display;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.how-p
+{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.img-t
+{
+    width: 1146px;
+    align-self: center;
+    height:479px;
+}
+.scrum-or-kanban
+{
+    width: 1160px;
+    margin:0 auto;
+}
+.scrumch
+{
+    width: 340px;
+    height:484px;
+}
+.plus-and-minus
+{
+    display: flex;
+    width: 262px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.plus-minus-img
+{
+    width: 25px;
+    height:33px;
+    margin-right: 16px;
+    align-items: center;
+}
+.ohoplenui
+{
+    margin:0 auto;
+    width: 1066px;
+    display: flex;
+    justify-content: space-between;
+}
+.character
+{
+    width: 1066px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:27px;
+    margin-bottom:;
+}
+.kanban
+{
+    width: 1160px;
+    margin: 0 auto;
+}
+.blockch
+{
+    width: 340px;
+    height:90px;
+    background: #62C1C5;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+}
+.blockch2
+{
+    background: #1E8A8C;
+}
+.scrum-or-kanban
+{
+    width: 1160px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.topch
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height:113px;
+}
+.truk
+{
+    width: 25.49px;
+    height:31px;
+    margin-top: -5px;
+}
+.list-of-metod
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.why
+{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.lampa_img
+{
+   display: none;
+}
+.title-character
+{
+    font-family: Playfair Display;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.scrumban
+{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.scrumban-img
+{
+    width: 466px;
+    height:387px;
+}
+.scrumban-motodo-block
+{
+    width: 680px;
+    height:495px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.b-motodo
+{
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.paraphraf-motodo
+{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 30px;
+}
+
+	.scrumban2{	
+    	display: none;
+	}
+
+	footer.footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 430px;
+		background: rgba(218, 241, 233, 0.51);
+		flex-shrink: 0;
+	}
+
+	div.container-footer{
+		display: flex;
+		justify-content: space-evenly;
+		width: 85%;
+		height: 231px;
+	}
+
+	div.block-border-top{
+		height: 62px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 65%;
+		color: #C4C4C4;
+		border-top: 0.5px solid;
+	}
+
+	img.footer_encompassing-text_logo{
+		margin-bottom: 5px;
+	}
+
+	p.footer_encompassing-text_text{
+		margin-top: 0px;
+	}
+
+	div.footer_encompassing-text{
+		width: 208px;
+	}
+
+	div.starfake{
+		height: 116px;
+		width: 180px;
+	}
+
+	h2.footer_encompassing-text_title{
+		color: #000;
+		font-family: Playfair Display;
+		font-size: 19px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; 
+	}
+
+	ul{
+		padding: 0px;
+	}
+
+	a.footer-a{
+		color: #717171;
+		font-family: Mulish;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 38px;
+		text-decoration: none;
+		list-style-type: none;
+	}
+
+	p.footer_encompassing-text_text{
+		color: #717171;
+		font-family: Mulish;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 28px; 
+	}
+
+	.logo-social-networks{
+		margin-right: 21px;
+		width: 20px;
+		height: 17px;
+		flex-shrink: 0;
+	}
+
+	.logo-social-networks:nth-child(2){
+		width: 8px;
+		height: 19px;
+		flex-shrink: 0;
+	}
+
+	.logo-social-networks:nth-child(3){
+		width: 17px;
+		height: 19px;
+		flex-shrink: 0;
+	}
+
+	.logo-social-networks:nth-child(4){
+		width: 18px;
+		height: 19px;
+		flex-shrink: 0;
+	}
+
+	.logo-social-networks:last-child{
+		margin-right: 0px;
+		width: 22px;
+		height: 17px;
+		flex-shrink: 0;
+	}
+
+	div.container-footer-two{
+		display: flex;
+		justify-content: space-between;
+		width: 74%;
+	}
+
+}
